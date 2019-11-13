@@ -1,5 +1,7 @@
 if [ -r ~/.bashrc ]; then
-   source ~/.bashrc
- fi
+  source ~/.bashrc
+fi
 
- export VISUAL=nvim
+export VISUAL=nvim
+
+eval "$(rbenv init -)"

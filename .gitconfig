@@ -5,3 +5,7 @@
 # Please adapt and uncomment the following lines:
 #	name = Tim Phang
 #	email = tphang@gmail.com
+[merge]
+	tool = nvim
+[mergetool "nvim"]
+	cmd = nvim -d $LOCAL $REMOTE $MERGED
